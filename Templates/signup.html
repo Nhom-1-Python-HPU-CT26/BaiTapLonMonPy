@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "center">
+        <h1>ĐĂNG KÝ</h1>
+    <form method="post">
+        <div class="signup">
+            <div class="txt_field">
+                <input type="text" id="name" name="name" required>
+                <span></span>
+                <label for="name">Họ và tên</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" id="email" name="email" required>
+                <span></span>
+                <label for="email">Email</label>
+            </div>
+            <div class="txt">
+                <label for="bday">Ngày sinh</label>
+            </div>
+            <div class="txt_field">
+                <input type="date" id="bday" name="bday" required>
+                <span></span>
+            </div>
+            <div class="txt">
+                <label for="role">Bạn là ...</label><br>
+            </div>
+                    <select id="role" name="role">
+                        <option value="teacher">Giáo Viên/Giảng Viên</option>
+                        <option value="student">Học Sinh/Sinh Viên</option>
+                    </select>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label>Mật khẩu</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label>Xác nhận mật khẩu</label>
+            </div>
+            <input type="submit" value="Đăng ký">
+            <div class="signup_link">
+                Bạn có tài khoản rồi à? <a href="login.html">Đăng nhập</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
