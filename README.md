@@ -1,1 +1,1 @@
-Cậu sẽ phụ Trách phần README nhé, Hường
+QUẢN LÝ KẾT QUẢ ĐIỂM THI BẰNG DJANGO-PYTHON
