@@ -133,7 +133,9 @@ button{
   outline: none;
 }
 header{
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 30px;
   background-color: #ffffff;
   text-align: absolute;
